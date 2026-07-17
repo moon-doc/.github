@@ -294,8 +294,9 @@ docker compose up -d   # → Production in 5 minutes 🚀
 | 🐙 | [moon-doc/mdoc-server](https://github.com/moon-doc/mdoc-server) | Backend auth service |
 | 🐛 | [Issues](https://github.com/moon-doc/mdoc/issues) | Bug reports & feature requests |
 | 💬 | [Discussions](https://github.com/moon-doc/mdoc/discussions) | Ideas & questions |
-| 🤝 | [Code of Conduct](https://github.com/moon-doc/.github-private/blob/main/CODE_OF_CONDUCT.md) | Debian Code of Conduct |
-| 🔄 | [Contributing](https://github.com/moon-doc/.github-private/blob/main/CONTRIBUTING.md) | Collaboration guidelines |
+| 🤝 | [Code of Conduct](https://github.com/moon-doc/.github/blob/main/CODE_OF_CONDUCT.md) | Debian Code of Conduct |
+| 🔄 | [Contributing](https://github.com/moon-doc/.github/blob/main/CONTRIBUTING.md) | Collaboration guidelines |
+| 🔒 | [Security Policy](https://github.com/moon-doc/.github/blob/main/SECURITY.md) | Vulnerability reporting |
 
 <br/>
 
