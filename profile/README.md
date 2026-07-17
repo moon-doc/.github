@@ -35,9 +35,9 @@
 <br/><br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 🏆 TROPHY SHOWCASE — Animated GitHub trophies                       -->
+<!-- 🏆 TROPHY SHOWCASE — replaced with dynamic quote (trophy is 402)    -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<img src="https://github-profile-trophy.vercel.app/?username=moon-doc&theme=midnight-purple&no-bg=true&no-frame=true&column=7&margin-w=5&title=Stars,Followers,Repositories,Commits,PullRequest,Issues,Contributions" width="100%" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=e94560&center=true&vCenter=true&repeat=true&width=700&height=50&lines=%F0%9F%8C%99%20Open%20Source%20%C2%B7%20Cross-Platform%20%C2%B7%20Zero%20Friction;Markdown%20%E2%9E%A1%EF%B8%8F%20HTML%20%2F%20PDF%20%2F%20Live%20Preview%20%2F%20Desktop%20%2F%20Mobile" />
 
 <br/>
 
@@ -230,13 +230,14 @@ docker compose up -d   # → Production in 5 minutes 🚀
 
 <br/><br/>
 
-<!-- 🔥 Streak Stats -->
-<img src="https://github-readme-streak-stats.herokuapp.com?user=moon-doc&theme=midnight-purple&hide_border=true&background=1a1a2e&stroke=0f3460&ring=e94560&fire=ff6b6b&currStreakLabel=60a0dc&sideNums=a0a0c0&sideLabels=a0a0c0&dates=888888" width="52%" />
+<!-- 🔥 Streak Stats — streak-stats is offline, use shields.io instead -->
+<img src="https://img.shields.io/badge/Contribution-Streak%20Active-e94560?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Commits-All%20Inclusive-60a0dc?style=for-the-badge&logo=git&logoColor=white&labelColor=1a1a2e" />
 
 <br/><br/>
 
-<!-- 📈 Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=moon-doc&theme=midnight-purple&area=true&hide_title=false&custom_title=Moon-Doc%20Contribution%20Rhythm%20%F0%9F%8E%B5&bg_color=1a1a2e&line=60a0dc&point=e94560&repo=moon-doc/mdoc" width="100%" />
+<!-- 📈 Activity Graph — use github-activity-readme as fallback -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=moon-doc&theme=midnight-purple&area=true&hide_title=false&custom_title=Moon-Doc%20Activity%20%F0%9F%8E%B5&bg_color=1a1a2e&line=60a0dc&point=e94560&repo=moon-doc/mdoc" width="100%" />
 
 <br/><br/>
 
@@ -261,17 +262,36 @@ docker compose up -d   # → Production in 5 minutes 🚀
 
 <br/>
 
-<!-- Core Languages -->
-<img src="https://skillicons.dev/icons?i=ts,js,vue,react,rust,java,spring&theme=dark&perline=7" />
+<!-- Core Languages — shields.io badges (skillicons DNS blocked) -->
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white&labelColor=1a1a2e" />
 <br/>
 <!-- Infrastructure & Tools -->
-<img src="https://skillicons.dev/icons?i=postgres,docker,nginx,linux,git,githubactions,nodejs,npm&theme=dark&perline=8" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white&labelColor=1a1a2e" />
 <br/>
 <!-- Frontend & Build -->
-<img src="https://skillicons.dev/icons?i=html,css,less,vite,tauri,puppeteer,webpack,eslint&theme=dark&perline=8" />
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Tauri-FFC131?style=flat-square&logo=tauri&logoColor=black&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Puppeteer-40B5A4?style=flat-square&logo=puppeteer&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white&labelColor=1a1a2e" />
 <br/>
 <!-- Extras -->
-<img src="https://skillicons.dev/icons?i=markdown,latex,svg,figma,vscode,idea,postman,bash&theme=dark&perline=8" />
+<img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Excalidraw-6965FF?style=flat-square&logo=excalidraw&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/IntelliJ-000000?style=flat-square&logo=intellijidea&logoColor=white&labelColor=1a1a2e" />
 
 </div>
 
