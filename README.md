@@ -1,35 +1,43 @@
 <div align="center">
 
-<!-- Hero Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=220&section=header&text=P-Moon&fontSize=80&fontColor=e0e0e0&animation=fadeIn&fontAlignY=32&desc=Crafting%20Elegant%20Document%20Experiences&descSize=24&descAlignY=52&descColor=a0a0c0" width="100%" />
-
-<!-- Typing SVG -->
-<a href="https://github.com/p-moon">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=60A0DC&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=%E2%80%8B%E2%80%8B%F0%9F%91%8B%20Welcome%20to%20P-Moon%20Organization;Markdown%20%E2%86%92%20HTML%20%E2%86%92%20PDF%20%E2%86%92%20Live%20Preview;Cross-Platform%20%7C%20Web%20%7C%20Desktop%20%7C%20Mobile" />
-</a>
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- 🌙 HERO BANNER — Venom gradient with glow & reflect animation       -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=venom&height=280&color=0:e94560,50:0f3460,100:533483&fontColor=ffffff&text=Moon-Doc&fontSize=90&animation=fadeIn&fontAlignY=35&desc=✨%20Crafting%20Elegant%20Document%20Experiences%20Across%20Every%20Platform%20✨&descSize=22&descAlignY=55&descColor=d0d0ff&stroke=ffffff&strokeWidth=1" width="100%" />
 
 <br/>
 
-<!-- Shields -->
-<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Projects-2+-blue?style=for-the-badge&logo=code&logoColor=white" />
-<img src="https://img.shields.io/badge/Languages-TypeScript%20%7C%20Java%20%7C%20Rust-orange?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/Platform-Web%20%7C%20macOS%20%7C%20Windows%20%7C%20Linux%20%7C%20Android-purple?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=book&logoColor=white" />
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- ⌨️ TYPING SVG — Multi-line animated typing effect                    -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<a href="https://github.com/moon-doc">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2800&pause=800&color=60A0DC&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=%F0%9F%91%8B%20Welcome%20to%20Moon-Doc%20Organization;Markdown%20%E2%9E%A1%EF%B8%8F%20HTML%20%E2%9E%A1%EF%B8%8F%20PDF%20%E2%9E%A1%EF%B8%8F%20Live%20Preview;%E2%98%81%EF%B8%8F%20Web%20%C2%B7%20%F0%9F%92%BB%20Desktop%20%C2%B7%20%F0%9F%93%B1%20Mobile%20%C2%B7%20%F0%9F%90%8B%20Docker;%E2%9C%A8%20One%20Ecosystem.%20Every%20Platform.%20Zero%20Friction." />
+</a>
 
 <br/><br/>
 
-<!-- Organization Description -->
-<h3>🌙 About P-Moon</h3>
-
-> We believe documents should be **beautiful**, **accessible**, and **cross-platform**.
-> P-Moon builds open-source tools that transform raw Markdown into stunning reading experiences —
-> from the browser to the desktop, from the phone to the PDF.
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- 🛡️ ANIMATED BADGES — Flashy shields with logos & styles             -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Projects-2%2B-blue?style=for-the-badge&logo=code&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Languages-TypeScript%20%7C%20Java%20%7C%20Rust-orange?style=for-the-badge&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Platform-Web%20%7C%20macOS%20%7C%20Win%20%7C%20Linux%20%7C%20Android-purple?style=for-the-badge&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=book&logoColor=white&labelColor=1a1a2e" />
 
 <br/>
 
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=p-moon&theme=midnight-purple&area=true&hide_title=false&custom_title=P-Moon%20Contribution%20Rhythm&bg_color=1a1a2e&line=60a0dc&point=e94560&repo=p-moon/mdoc" width="100%" />
+<img src="https://img.shields.io/badge/npm-@p--moon/mdoc-cb3837?style=for-the-badge&logo=npm&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Spring_Boot-3.3-6db33f?style=for-the-badge&logo=springboot&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Tauri-v2-ffc131?style=for-the-badge&logo=tauri&logoColor=black&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Docker-Ready-2496ed?style=for-the-badge&logo=docker&logoColor=white&labelColor=1a1a2e" />
+
+<br/><br/>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- 🏆 TROPHY SHOWCASE — Animated GitHub trophies                       -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<img src="https://github-profile-trophy.vercel.app/?username=moon-doc&theme=midnight-purple&no-bg=true&no-frame=true&column=7&margin-w=5&title=Stars,Followers,Repositories,Commits,PullRequest,Issues,Contributions" width="100%" />
 
 <br/>
 
@@ -37,20 +45,43 @@
 
 ---
 
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- 🌙 ABOUT SECTION — Animated quote & description                     -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&weight=700&size=18&duration=4000&pause=1500&color=e94560&center=true&vCenter=true&repeat=true&width=600&height=40&lines=%22Give%20me%20a%20.md%20file%2C%20and%20I%20shall%20give%20you%20a%20masterpiece.%22%20%E2%80%94%20Moon-Doc%20%F0%9F%8C%99" />
+
+</div>
+
+<br/>
+
+> 🌙 **Moon-Doc** believes documents should be **beautiful**, **accessible**, and **cross-platform**.
+> We build open-source tools that transform raw Markdown into stunning reading experiences —
+> from the browser to the desktop, from the phone to the PDF.
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- 🚀 PROJECTS SHOWCASE — Two-column animated cards                    -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
 ## 🚀 Our Projects
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🌙 [mdoc](https://github.com/p-moon/mdoc) — Document Engine
+### 🌙 [mdoc](https://github.com/moon-doc/mdoc) — Document Engine
 
-**One command, beautiful documents.**
+> **One command, beautiful documents.**
 
-```
-npx @p-moon/mdoc README.md    # → HTML
-npx @p-moon/mdoc README.md --pdf  # → PDF
-npx @p-moon/mdoc serve ./docs     # → Live Preview
+```bash
+npx @p-moon/mdoc README.md          # → HTML ✨
+npx @p-moon/mdoc README.md --pdf    # → PDF 📄
+npx @p-moon/mdoc serve ./docs       # → Live Preview 🔥
+npx @p-moon/mdoc build ./docs       # → Static Site 🏗️
 ```
 
 <details>
@@ -90,19 +121,21 @@ npx @p-moon/mdoc serve ./docs     # → Live Preview
 
 </details>
 
-<img src="https://img.shields.io/npm/v/@p-moon/mdoc?style=flat-square&logo=npm&color=60A0DC" />
-<img src="https://img.shields.io/github/commit-activity/m/p-moon/mdoc?style=flat-square&color=e94560" />
-<img src="https://img.shields.io/github/stars/p-moon/mdoc?style=flat-square&color=yellow" />
+<br/>
+
+<img src="https://img.shields.io/npm/v/@p-moon/mdoc?style=flat-square&logo=npm&color=60A0DC&labelColor=1a1a2e" />
+<img src="https://img.shields.io/github/commit-activity/m/moon-doc/mdoc?style=flat-square&color=e94560&labelColor=1a1a2e" />
+<img src="https://img.shields.io/github/stars/moon-doc/mdoc?style=flat-square&color=yellow&labelColor=1a1a2e" />
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🛡️ [mdoc-server](https://github.com/p-moon/mdoc-server) — Auth & Cloud Sync
+### 🛡️ [mdoc-server](https://github.com/moon-doc/mdoc-server) — Auth & Cloud Sync
 
-**Secure authentication, device fingerprinting, cloud-ready.**
+> **Secure authentication, device fingerprinting, cloud-ready.**
 
-```
-docker compose up -d   # → Production in 5 minutes
+```bash
+docker compose up -d   # → Production in 5 minutes 🚀
 ```
 
 <details>
@@ -134,9 +167,11 @@ docker compose up -d   # → Production in 5 minutes
 
 </details>
 
-<img src="https://img.shields.io/badge/JDK-21-orange?style=flat-square&logo=java" />
-<img src="https://img.shields.io/badge/Spring%20Boot-3.3-green?style=flat-square&logo=spring" />
-<img src="https://img.shields.io/badge/Docker-Ready-blue?style=flat-square&logo=docker" />
+<br/>
+
+<img src="https://img.shields.io/badge/JDK-21-orange?style=flat-square&logo=java&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Spring%20Boot-3.3-green?style=flat-square&logo=spring&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Docker-Ready-blue?style=flat-square&logo=docker&labelColor=1a1a2e" />
 
 </td>
 </tr>
@@ -144,16 +179,17 @@ docker compose up -d   # → Production in 5 minutes
 
 ---
 
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- 🎯 VISION — Animated ASCII art pipeline                            -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
 <div align="center">
 
-## ⚡ Quick Stats
+## 🎯 Our Vision
 
-<img src="https://github-readme-stats.vercel.app/api?username=p-moon&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=1a1a2e&title_color=e94560&icon_color=60a0dc&text_color=a0a0c0&count_private=true&include_all_commits=true" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=p-moon&layout=compact&theme=midnight-purple&hide_border=true&bg_color=1a1a2e&title_color=e94560&text_color=a0a0c0&langs_count=8" height="170" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3500&pause=1200&color=a0a0c0&center=true&vCenter=true&repeat=true&width=700&height=35&lines=Raw%20Markdown%20%E2%9E%A1%EF%B8%8F%20mdoc%20Engine%20%E2%9E%A1%EF%B8%8F%20Cross-Platform%20Shell%20%E2%9E%A1%EF%B8%8F%20Cloud%20Sync%20%26%20Identity;One%20ecosystem.%20Every%20platform.%20Zero%20friction." />
 
 <br/>
-
-## 🎯 Our Vision
 
 ```
    ┌─────────────────────────────────────────────────────────────┐
@@ -175,31 +211,96 @@ docker compose up -d   # → Production in 5 minutes
    └─────────────────────────────────────────────────────────────┘
 ```
 
+</div>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- 📊 STATS — GitHub stats cards + streak + activity graph            -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+## ⚡ GitHub Stats
+
 <br/>
 
-## 🏗️ Architecture Map
+<img src="https://github-readme-stats.vercel.app/api?username=moon-doc&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=1a1a2e&title_color=e94560&icon_color=60a0dc&text_color=a0a0c0&count_private=true&include_all_commits=true&line_height=28" height="180" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=moon-doc&layout=compact&theme=midnight-purple&hide_border=true&bg_color=1a1a2e&title_color=e94560&text_color=a0a0c0&langs_count=10&line_height=28" height="180" />
 
-<img src="https://skillicons.dev/icons?i=ts,js,vue,react,rust,java,spring,postgres,docker,nginx,linux,git,nodejs,npm,html,css,less,vite,tauri,puppeteer&theme=dark&perline=10" />
+<br/><br/>
+
+<!-- 🔥 Streak Stats -->
+<img src="https://github-readme-streak-stats.herokuapp.com?user=moon-doc&theme=midnight-purple&hide_border=true&background=1a1a2e&stroke=0f3460&ring=e94560&fire=ff6b6b&currStreakLabel=60a0dc&sideNums=a0a0c0&sideLabels=a0a0c0&dates=888888" width="52%" />
+
+<br/><br/>
+
+<!-- 📈 Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=moon-doc&theme=midnight-purple&area=true&hide_title=false&custom_title=Moon-Doc%20Contribution%20Rhythm%20%F0%9F%8E%B5&bg_color=1a1a2e&line=60a0dc&point=e94560&repo=moon-doc/mdoc" width="100%" />
+
+<br/><br/>
+
+<!-- 🐍 Contribution Snake Animation -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/moon-doc/moon-doc/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/moon-doc/moon-doc/output/github-snake.svg" />
+  <img alt="github-snake-animation" src="https://raw.githubusercontent.com/moon-doc/moon-doc/output/github-snake-dark.svg" width="100%" />
+</picture>
+
+</div>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- 🏗️ TECH STACK — Animated skill icons                              -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+## 🏗️ Tech Stack
 
 <br/>
+
+<!-- Core Languages -->
+<img src="https://skillicons.dev/icons?i=ts,js,vue,react,rust,java,spring&theme=dark&perline=7" />
+<br/>
+<!-- Infrastructure & Tools -->
+<img src="https://skillicons.dev/icons?i=postgres,docker,nginx,linux,git,githubactions,nodejs,npm&theme=dark&perline=8" />
+<br/>
+<!-- Frontend & Build -->
+<img src="https://skillicons.dev/icons?i=html,css,less,vite,tauri,puppeteer,webpack,eslint&theme=dark&perline=8" />
+<br/>
+<!-- Extras -->
+<img src="https://skillicons.dev/icons?i=markdown,latex,svg,figma,vscode,idea,postman,bash&theme=dark&perline=8" />
+
+</div>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- 🌟 GET INVOLVED — Links & resources                               -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
 
 ## 🌟 Get Involved
 
-| Link | Description |
-|------|-------------|
-| 📦 [npm: @p-moon/mdoc](https://www.npmjs.com/package/@p-moon/mdoc) | Install & start in seconds |
-| 🐙 [p-moon/mdoc](https://github.com/p-moon/mdoc) | Core engine repo |
-| 🐙 [p-moon/mdoc-server](https://github.com/p-moon/mdoc-server) | Backend auth service |
-| 🐛 [Issues](https://github.com/p-moon/mdoc/issues) | Bug reports & feature requests |
-| 💬 [Discussions](https://github.com/p-moon/mdoc/discussions) | Ideas & questions |
+<br/>
+
+| | Link | Description |
+|---|------|-------------|
+| 📦 | [npm: @p-moon/mdoc](https://www.npmjs.com/package/@p-moon/mdoc) | Install & start in seconds |
+| 🐙 | [moon-doc/mdoc](https://github.com/moon-doc/mdoc) | Core engine repo |
+| 🐙 | [moon-doc/mdoc-server](https://github.com/moon-doc/mdoc-server) | Backend auth service |
+| 🐛 | [Issues](https://github.com/moon-doc/mdoc/issues) | Bug reports & feature requests |
+| 💬 | [Discussions](https://github.com/moon-doc/mdoc/discussions) | Ideas & questions |
 
 <br/>
 
-> *"Give me a `.md` file, and I shall give you a masterpiece."*
-> — P-Moon 🌙
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- 🦶 FOOTER — Waving footer with gradient                            -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:16213e,100:1a1a2e&height=120&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:533483,50:0f3460,100:e94560&section=footer" width="100%" />
 
 </div>
