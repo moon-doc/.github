@@ -1,0 +1,214 @@
+#!/usr/bin/env node
+/**
+ * Generate animated vision pipeline SVG for the profile README
+ * Usage: node generate-vision-svg.js
+ */
+
+const fs = require("fs");
+const path = require("path");
+
+const svg = `<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" width="680" height="280">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e94560"/>
+      <stop offset="50%" stop-color="#60a0dc"/>
+      <stop offset="100%" stop-color="#39d353"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#60a0dc"/>
+      <stop offset="100%" stop-color="#e94560"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <style>
+      @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes pulseArrow {
+        0%, 100% { opacity: 0.4; }
+        50%      { opacity: 1; }
+      }
+      @keyframes dashFlow {
+        to { stroke-dashoffset: -20; }
+      }
+      @keyframes sparkle {
+        0%, 100% { opacity: 0; r: 1; }
+        50%      { opacity: 1; r: 2.5; }
+      }
+      @keyframes slideRight {
+        from { opacity: 0; transform: translateX(-30px); }
+        to   { opacity: 1; transform: translateX(0); }
+      }
+      .card { animation: fadeInUp 0.8s ease-out both; }
+      .card-1 { animation-delay: 0.2s; }
+      .card-2 { animation-delay: 0.6s; }
+      .card-3 { animation-delay: 1.0s; }
+      .card-4 { animation-delay: 1.4s; }
+      .arrow { animation: pulseArrow 2s ease-in-out infinite; }
+      .arrow-1 { animation-delay: 0.5s; }
+      .arrow-2 { animation-delay: 0.9s; }
+      .arrow-3 { animation-delay: 1.3s; }
+      .flow-line {
+        stroke-dasharray: 8 4;
+        animation: dashFlow 1s linear infinite;
+      }
+      .sparkle { animation: sparkle 2s ease-in-out infinite; }
+      .tag { animation: slideRight 0.6s ease-out both; }
+      .tag-1 { animation-delay: 0.8s; }
+      .tag-2 { animation-delay: 1.2s; }
+      .tag-3 { animation-delay: 1.6s; }
+      .tag-4 { animation-delay: 2.0s; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="680" height="280" rx="12" fill="url(#bg)"/>
+
+  <!-- Top accent line -->
+  <rect y="0" width="680" height="3" rx="1.5" fill="url(#accent)" opacity="0.8"/>
+
+  <!-- Connecting flow line (vertical) -->
+  <line x1="80" y1="68" x2="80" y2="240" stroke="url(#lineGrad)" stroke-width="2" class="flow-line" opacity="0.5"/>
+
+  <!-- === Card 1: Raw Markdown === -->
+  <g class="card card-1">
+    <rect x="28" y="35" width="104" height="44" rx="8" fill="#16213e" stroke="#60a0dc" stroke-width="1.5" opacity="0.9"/>
+    <text x="80" y="55" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="18" fill="#60a0dc">📄</text>
+    <text x="80" y="72" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#8b949e" font-weight="600">RAW MD</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <g class="arrow arrow-1">
+    <polygon points="80,84 74,96 86,96" fill="#60a0dc" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- === Card 2: mdoc Engine === -->
+  <g class="card card-2">
+    <rect x="28" y="102" width="104" height="44" rx="8" fill="#16213e" stroke="#e94560" stroke-width="1.5" opacity="0.9"/>
+    <text x="80" y="122" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="18" fill="#e94560">🎨</text>
+    <text x="80" y="139" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#8b949e" font-weight="600">MDOC ENGINE</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <g class="arrow arrow-2">
+    <polygon points="80,151 74,163 86,163" fill="#e94560" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- === Card 3: Cross-Platform Shell === -->
+  <g class="card card-3">
+    <rect x="28" y="169" width="104" height="44" rx="8" fill="#16213e" stroke="#39d353" stroke-width="1.5" opacity="0.9"/>
+    <text x="80" y="189" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="18" fill="#39d353">🖥️</text>
+    <text x="80" y="206" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#8b949e" font-weight="600">SHELL</text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <g class="arrow arrow-3">
+    <polygon points="80,218 74,230 86,230" fill="#39d353" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- === Card 4: mdoc-server === -->
+  <g class="card card-4">
+    <rect x="28" y="236" width="104" height="36" rx="8" fill="#16213e" stroke="#f0c040" stroke-width="1.5" opacity="0.9"/>
+    <text x="80" y="253" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="18" fill="#f0c040">🛡️</text>
+    <text x="80" y="267" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#8b949e" font-weight="600">MDOC-SERVER</text>
+  </g>
+
+  <!-- === Right side: Output tags === -->
+
+  <!-- Render outputs from mdoc Engine -->
+  <g class="tag tag-1">
+    <line x1="132" y1="124" x2="180" y2="90" stroke="#e94560" stroke-width="1" opacity="0.4"/>
+    <circle cx="180" cy="90" r="2" fill="#e94560" class="sparkle" style="animation-delay:0s"/>
+    <rect x="188" y="78" width="50" height="24" rx="12" fill="#e9456020" stroke="#e94560" stroke-width="1"/>
+    <text x="213" y="94" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#e94560">HTML</text>
+  </g>
+  <g class="tag tag-2">
+    <line x1="132" y1="124" x2="180" y2="124" stroke="#e94560" stroke-width="1" opacity="0.4"/>
+    <circle cx="180" cy="124" r="2" fill="#e94560" class="sparkle" style="animation-delay:0.3s"/>
+    <rect x="188" y="112" width="46" height="24" rx="12" fill="#e9456020" stroke="#e94560" stroke-width="1"/>
+    <text x="211" y="128" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#e94560">PDF</text>
+  </g>
+  <g class="tag tag-3">
+    <line x1="132" y1="124" x2="180" y2="158" stroke="#e94560" stroke-width="1" opacity="0.4"/>
+    <circle cx="180" cy="158" r="2" fill="#e94560" class="sparkle" style="animation-delay:0.6s"/>
+    <rect x="188" y="146" width="90" height="24" rx="12" fill="#e9456020" stroke="#e94560" stroke-width="1"/>
+    <text x="233" y="162" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#e94560">Live Preview</text>
+  </g>
+
+  <!-- Platform tags from Shell -->
+  <g class="tag tag-2">
+    <line x1="132" y1="191" x2="180" y2="185" stroke="#39d353" stroke-width="1" opacity="0.4"/>
+    <circle cx="180" cy="185" r="2" fill="#39d353" class="sparkle" style="animation-delay:0.2s"/>
+    <rect x="188" y="173" width="58" height="24" rx="12" fill="#39d35320" stroke="#39d353" stroke-width="1"/>
+    <text x="217" y="189" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#39d353">Web</text>
+  </g>
+  <g class="tag tag-3">
+    <line x1="132" y1="191" x2="180" y2="213" stroke="#39d353" stroke-width="1" opacity="0.4"/>
+    <circle cx="180" cy="213" r="2" fill="#39d353" class="sparkle" style="animation-delay:0.5s"/>
+    <rect x="188" y="201" width="62" height="24" rx="12" fill="#39d35320" stroke="#39d353" stroke-width="1"/>
+    <text x="219" y="217" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#39d353">Tauri</text>
+  </g>
+  <g class="tag tag-4">
+    <line x1="132" y1="191" x2="180" y2="241" stroke="#39d353" stroke-width="1" opacity="0.4"/>
+    <circle cx="180" cy="241" r="2" fill="#39d353" class="sparkle" style="animation-delay:0.8s"/>
+    <rect x="188" y="229" width="76" height="24" rx="12" fill="#39d35320" stroke="#39d353" stroke-width="1"/>
+    <text x="226" y="245" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#39d353">Android</text>
+  </g>
+
+  <!-- Cloud tags from mdoc-server -->
+  <g class="tag tag-3">
+    <line x1="132" y1="254" x2="180" y2="254" stroke="#f0c040" stroke-width="1" opacity="0.4"/>
+    <circle cx="180" cy="254" r="2" fill="#f0c040" class="sparkle" style="animation-delay:0.4s"/>
+    <rect x="188" y="242" width="92" height="24" rx="12" fill="#f0c04020" stroke="#f0c040" stroke-width="1"/>
+    <text x="234" y="258" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#f0c040">Cloud Sync</text>
+  </g>
+
+  <!-- === Right panel: Slogan === -->
+  <rect x="320" y="40" width="340" height="200" rx="12" fill="#16213e" opacity="0.5" stroke="#60a0dc" stroke-width="0.5"/>
+
+  <!-- Large title -->
+  <text x="490" y="100" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="32" fill="#e94560" font-weight="700" opacity="0.9">
+    One Ecosystem
+  </text>
+  <text x="490" y="140" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="32" fill="#60a0dc" font-weight="700" opacity="0.9">
+    Every Platform
+  </text>
+  <text x="490" y="180" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="32" fill="#39d353" font-weight="700" opacity="0.9">
+    Zero Friction
+  </text>
+
+  <!-- Animated underline -->
+  <line x1="380" y1="200" x2="600" y2="200" stroke="url(#accent)" stroke-width="2" stroke-linecap="round">
+    <animate attributeName="x1" values="380;420;380" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="600;560;600" dur="3s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Decorative dots -->
+  <circle cx="370" cy="225" r="2" fill="#e94560" opacity="0.6">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="390" cy="225" r="2" fill="#60a0dc" opacity="0.6">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="410" cy="225" r="2" fill="#39d353" opacity="0.6">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2s" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+</svg>`;
+
+const distDir = path.join(__dirname, "dist");
+fs.mkdirSync(distDir, { recursive: true });
+fs.writeFileSync(path.join(distDir, "vision-pipeline.svg"), svg);
+console.log("✅ Generated dist/vision-pipeline.svg");

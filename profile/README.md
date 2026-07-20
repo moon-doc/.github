@@ -191,14 +191,7 @@ docker compose up -d   # → Production in 5 minutes 🚀
 
 <br/>
 
-| | |
-|:---|:---|
-| 📄 **Raw Markdown** | ↘ |
-| 🎨 **mdoc Engine** → `render` | → HTML · PDF · Live Preview |
-| 🖥️ **Cross-Platform Shell** | Web · Tauri · Android |
-| 🛡️ **mdoc-server** → `auth` | → Cloud Sync · User Identity |
-
-> **One ecosystem. Every platform. Zero friction.**
+<img src="https://raw.githubusercontent.com/moon-doc/.github/output/vision-pipeline.svg" width="100%" />
 
 </div>
 
