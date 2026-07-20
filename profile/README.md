@@ -207,8 +207,8 @@ docker compose up -d   # → Production in 5 minutes 🚀
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=p-moon&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=1a1a2e&title_color=e94560&icon_color=60a0dc&text_color=a0a0c0&count_private=true&include_all_commits=true&line_height=28" height="180" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=p-moon&layout=compact&theme=midnight-purple&hide_border=true&bg_color=1a1a2e&title_color=e94560&text_color=a0a0c0&langs_count=10&line_height=28" height="180" />
+<img src="https://raw.githubusercontent.com/moon-doc/.github/output/github-stats.svg" height="180" />
+<img src="https://raw.githubusercontent.com/moon-doc/.github/output/github-top-langs.svg" height="180" />
 
 <br/><br/>
 
