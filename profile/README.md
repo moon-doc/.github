@@ -10,8 +10,8 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!-- ⌨️ TYPING SVG — Multi-line animated typing effect                    -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<a href="https://github.com/moon-doc">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2800&pause=800&color=60A0DC&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=%F0%9F%91%8B%20Welcome%20to%20Moon-Doc%20Organization;Markdown%20%E2%9E%A1%EF%B8%8F%20HTML%20%E2%9E%A1%EF%B8%8F%20PDF%20%E2%9E%A1%EF%B8%8F%20Live%20Preview;%E2%98%81%EF%B8%8F%20Web%20%C2%B7%20%F0%9F%92%BB%20Desktop%20%C2%B7%20%F0%9F%93%B1%20Mobile%20%C2%B7%20%F0%9F%90%8B%20Docker;%E2%9C%A8%20One%20Ecosystem.%20Every%20Platform.%20Zero%20Friction." />
+<a href="https://moon.jdk.plus">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2800&pause=800&color=60A0DC&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=%F0%9F%91%8B%20Welcome%20to%20Moon-Doc%20Organization;ArXiv%20%E8%AE%BA%E6%96%87%20%C2%B7%20AI%20%E8%A7%A3%E8%AF%BB%20%C2%B7%20%E5%8F%8C%E8%AF%AD%E5%AF%B9%E7%85%A7%20%C2%B7%20EPUB%20%2F%20PDF;%E2%98%81%EF%B8%8F%20Web%20%C2%B7%20%F0%9F%92%BB%20Desktop%20%C2%B7%20%F0%9F%93%B1%20Mobile;%E2%9C%A8%20%E4%B8%BA%E6%B7%B1%E5%BA%A6%E9%98%85%E8%AF%BB%E8%80%8C%E7%94%9F%20%E2%80%94%20moon.jdk.plus" />
 </a>
 
 <br/><br/>
@@ -22,7 +22,7 @@
 <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e" />
 <img src="https://img.shields.io/badge/Projects-2%2B-blue?style=for-the-badge&logo=code&logoColor=white&labelColor=1a1a2e" />
 <img src="https://img.shields.io/badge/Languages-TypeScript%20%7C%20Java%20%7C%20Rust-orange?style=for-the-badge&logoColor=white&labelColor=1a1a2e" />
-<img src="https://img.shields.io/badge/Platform-Web%20%7C%20macOS%20%7C%20Win%20%7C%20Linux%20%7C%20Android-purple?style=for-the-badge&logoColor=white&labelColor=1a1a2e" />
+<img src="https://img.shields.io/badge/Platform-macOS%20%7C%20Win%20%7C%20Android%20%7C%20Linux-purple?style=for-the-badge&logoColor=white&labelColor=1a1a2e" />
 <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=book&logoColor=white&labelColor=1a1a2e" />
 
 <br/>
@@ -57,9 +57,11 @@
 
 <br/>
 
-> 🌙 **Moon-Doc** believes documents should be **beautiful**, **accessible**, and **cross-platform**.
-> We build open-source tools that transform raw Markdown into stunning reading experiences —
-> from the browser to the desktop, from the phone to the PDF.
+> 🌙 **Moon-Doc** builds open-source tools for **deep reading** across every platform.
+> From ArXiv paper discovery to AI-powered Q&A, from bilingual translation to immersive EPUB —
+> **小月亮阅读器** makes every document beautiful, accessible, and cross-platform.
+>
+> 🌐 **Try it now**: [moon.jdk.plus](https://moon.jdk.plus) — download for macOS / Windows / Android.
 
 ---
 
@@ -73,11 +75,25 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🌙 [mdoc](https://github.com/moon-doc/mdoc) — Document Engine
+### 🌙 [小月亮阅读器](https://moon.jdk.plus) — Deep Reading, Every Platform
 
-> **One command, beautiful documents.**
+> **ArXiv · AI 解读 · 双语对照 · EPUB · PDF · Markdown**
+
+[![Download](https://img.shields.io/badge/Download-macOS%20%7C%20Win%20%7C%20Android-42b983?style=for-the-badge&logoColor=white&labelColor=1a1a2e)](https://moon.jdk.plus#start)
+
+| Feature | Description |
+|---------|-------------|
+| 📡 **ArXiv 顶会推荐** | 首页智能聚合 ArXiv 顶会论文，一键沉浸阅读 |
+| 🌐 **双语对照阅读** | 原文与译文段落级对照，跨越语言门槛 |
+| 🤖 **AI 论文解读** | 选中段落即问即答，拆解公式、梳理脉络 |
+| 📖 **极致 EPUB** | 翻页动效、标注批注、纸书般沉浸 |
+| 📕 **PDF 阅读** | 全文搜索、标注、双语翻译、AI 解读 |
+| 🎨 **八种主题** | 月夜深空到晨曦暖阳，护眼与美感兼得 |
+| ✍️ **标注批注** | 高亮、笔记、划线，思考与灵感被沉淀 |
+| 🔄 **自动更新** | 静默检查新版本，红点提示一键下载 |
 
 ```bash
+# CLI 模式
 npx @p-moon/mdoc README.md          # → HTML ✨
 npx @p-moon/mdoc README.md --pdf    # → PDF 📄
 npx @p-moon/mdoc serve ./docs       # → Live Preview 🔥
@@ -85,7 +101,7 @@ npx @p-moon/mdoc build ./docs       # → Static Site 🏗️
 ```
 
 <details>
-<summary>📖 Full Feature List</summary>
+<summary>📖 完整功能列表</summary>
 
 | Category | Features |
 |----------|----------|
@@ -187,7 +203,7 @@ docker compose up -d   # → Production in 5 minutes 🚀
 
 ## 🎯 Our Vision
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3500&pause=1200&color=a0a0c0&center=true&vCenter=true&repeat=true&width=700&height=35&lines=Raw%20Markdown%20%E2%9E%A1%EF%B8%8F%20mdoc%20Engine%20%E2%9E%A1%EF%B8%8F%20Cross-Platform%20Shell%20%E2%9E%A1%EF%B8%8F%20Cloud%20Sync%20%26%20Identity;One%20ecosystem.%20Every%20platform.%20Zero%20friction." />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3500&pause=1200&color=a0a0c0&center=true&vCenter=true&repeat=true&width=700&height=35&lines=Raw%20Markdown%20%E2%9E%A1%EF%B8%8F%20mdoc%20Engine%20%E2%9E%A1%EF%B8%8F%20%E5%B0%8F%E6%9C%88%E4%BA%AE%E9%98%85%E8%AF%BB%E5%99%A8%20%E2%9E%A1%EF%B8%8F%20Cloud%20Sync;Deep%20Reading%2C%20Every%20Platform%20%E2%80%94%20moon.jdk.plus" />
 
 <br/>
 
@@ -291,11 +307,12 @@ docker compose up -d   # → Production in 5 minutes 🚀
 
 | | Link | Description |
 |---|------|-------------|
+| 🌐 | [moon.jdk.plus](https://moon.jdk.plus) | 官网 · 下载 · 功能介绍 |
 | 📦 | [npm: @p-moon/mdoc](https://www.npmjs.com/package/@p-moon/mdoc) | Install & start in seconds |
-| 🐙 | [moon-doc/mdoc](https://github.com/moon-doc/mdoc) | Core engine repo |
+| 🐙 | [moon-doc/moon-reader](https://github.com/moon-doc/moon-reader) | 小月亮阅读器源码 |
 | 🐙 | [moon-doc/mdoc-server](https://github.com/moon-doc/mdoc-server) | Backend auth service |
-| 🐛 | [Issues](https://github.com/moon-doc/mdoc/issues) | Bug reports & feature requests |
-| 💬 | [Discussions](https://github.com/moon-doc/mdoc/discussions) | Ideas & questions |
+| 🐛 | [Issues](https://github.com/moon-doc/moon-reader/issues) | Bug reports & feature requests |
+| 💬 | [Discussions](https://github.com/moon-doc/moon-reader/discussions) | Ideas & questions |
 | 🤝 | [Code of Conduct](https://github.com/moon-doc/.github/blob/main/CODE_OF_CONDUCT.md) | Debian Code of Conduct |
 | 🔄 | [Contributing](https://github.com/moon-doc/.github/blob/main/CONTRIBUTING.md) | Collaboration guidelines |
 | 🔒 | [Security Policy](https://github.com/moon-doc/.github/blob/main/SECURITY.md) | Vulnerability reporting |
