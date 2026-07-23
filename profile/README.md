@@ -43,59 +43,96 @@
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 🚀 PROJECTS SHOWCASE                                                 -->
+<!-- 📸 GALLERY — Real screenshots from the app                          -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## 🚀 Our Projects
+## 📸 一览小月亮
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="55%" valign="middle">
 
-### 🌙 [小月亮阅读器](https://moon.jdk.plus) — 深度阅读，触手可及
-
-> **ArXiv · AI 解读 · 双语对照 · EPUB · PDF · Markdown**
-
-[![Download](https://img.shields.io/badge/Download-macOS%20%7C%20Win%20%7C%20Android-42b983?style=for-the-badge&logoColor=white&labelColor=1a1a2e)](https://moon.jdk.plus#start)
-
-| Feature | Description |
-|---------|-------------|
-| 📡 **ArXiv 顶会推荐** | 首页智能聚合 ArXiv 顶会论文，一键沉浸阅读 |
-| 🌐 **双语对照阅读** | 原文与译文段落级对照，跨越语言门槛 |
-| 🤖 **AI 论文解读** | 选中段落即问即答，拆解公式、梳理脉络 |
-| 📖 **极致 EPUB** | 翻页动效、标注批注、纸书般沉浸 |
-| 📕 **PDF 阅读** | 全文搜索、标注、双语翻译、AI 解读 |
-| 🎨 **八种主题** | 月夜深空到晨曦暖阳，护眼与美感兼得 |
-| ✍️ **标注批注** | 高亮、笔记、划线，思考与灵感被沉淀 |
-| 🔄 **自动更新** | 静默检查新版本，红点提示一键下载 |
-
-<br/>
-
-<img src="https://img.shields.io/github/stars/moon-doc/mdoc?style=flat-square&color=yellow&labelColor=1a1a2e" />
+<a href="https://moon.jdk.plus">
+<img src="https://moon.jdk.plus/assets/shot-arxiv.webp" alt="ArXiv 顶会论文推荐" width="100%" />
+</a>
 
 </td>
-<td width="50%" valign="top">
+<td width="45%" valign="top">
 
-### ☁️ 云同步服务 — 阅读进度，无处不在
+<h3>📡 ArXiv 顶会推荐 · 一键阅读</h3>
 
-> **安全认证 · 设备绑定 · 多端同步**
-
-| Feature | Description |
-|---------|-------------|
-| 🔐 **安全登录** | 手机号验证码登录，安全可靠 |
-| 📱 **设备绑定** | 智能设备识别，一机一码 |
-| 🔄 **云端同步** | 阅读进度、批注笔记多端同步 |
-| 🛡️ **隐私保护** | 端到端加密传输，数据仅属自己 |
-| ⚡ **快速部署** | 一键启动，开箱即用 |
-
-<br/>
-
-<img src="https://img.shields.io/badge/Service-Cloud%20Ready-blue?style=flat-square&logo=cloud&logoColor=white&labelColor=1a1a2e" />
-<img src="https://img.shields.io/badge/Security-Encrypted-green?style=flat-square&logo=lock&logoColor=white&labelColor=1a1a2e" />
+<p>首页智能聚合当日 ArXiv 顶会热门论文，封面式卡片一目了然，轻点即刻进入沉浸阅读，让追踪前沿成为一种享受。</p>
 
 </td>
 </tr>
 </table>
+
+<table>
+<tr>
+<td width="45%" valign="top">
+
+<h3>🌐 双语对照阅读</h3>
+
+<p>原文与译文段落级并排对照，滚动同步、高亮呼应，跨越语言的门槛，让每一篇外文论文都清晰可读。</p>
+
+</td>
+<td width="55%" valign="middle">
+
+<a href="https://moon.jdk.plus">
+<img src="https://moon.jdk.plus/assets/shot-bilingual.webp" alt="双语对照阅读" width="100%" />
+</a>
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="55%" valign="middle">
+
+<a href="https://moon.jdk.plus">
+<img src="https://moon.jdk.plus/assets/shot-qa.webp" alt="论文解读智能问答" width="100%" />
+</a>
+
+</td>
+<td width="45%" valign="top">
+
+<h3>🤖 论文解读 · 智能问答</h3>
+
+<p>选中段落即问即答，AI 帮你拆解公式、梳理脉络、总结贡献，读懂每一个难点，不再独自苦思。</p>
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="45%" valign="top">
+
+<h3>📖 极致的 EPUB 阅读体验</h3>
+
+<p>细腻翻页动效、随手标注批注、精心打磨的排版细节，还原纸书般的沉浸，让阅读回归纯粹。</p>
+
+</td>
+<td width="55%" valign="middle">
+
+<a href="https://moon.jdk.plus">
+<img src="https://moon.jdk.plus/assets/shot-epub.webp" alt="极致的 EPUB 阅读体验" width="100%" />
+</a>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<a href="https://moon.jdk.plus#themes">
+<img src="https://moon.jdk.plus/assets/shot-themes.webp" alt="八种精美主题" width="80%" />
+</a>
+
+**🎨 八种主题，随心而变** — 从月夜深空到晨曦暖阳，护眼与美感兼得
+
+</div>
 
 ---
 
